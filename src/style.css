@@ -1,0 +1,22 @@
+/* Reset CSS */
+@import url(./css/utilities/reset.css);
+
+/* Utilities */
+@import url(./css/utilities/typography.css);
+@import url(./css/utilities/colors.css);
+@import url(./css/utilities/spacing.css);
+@import url(./css/utilities/buttons.css);
+
+/* Partials */
+@import url(./css/partials/header.css);
+@import url(./css/partials/hero.css);
+@import url(./css/partials/history.css);
+@import url(./css/partials/team.css);
+@import url(./css/partials/specialities.css);
+@import url(./css/partials/resume.css);
+@import url(./css/partials/cda.css);
+@import url(./css/partials/footer.css);
+@import url(./css/partials/testimonials.css);
+
+/* Sliders, Gallery and Other Funcionalities with JS */
+@import url(./css/funcionalities/slider.css);

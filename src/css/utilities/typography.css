@@ -1,0 +1,100 @@
+/* Titles */
+.title-hero {
+  font-family: "Almarai", sans-serif;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.75rem;
+  letter-spacing: -0.1rem;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: "Almarai", sans-serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: calc(4rem * 1.4);
+  letter-spacing: -0.1rem;
+  text-transform: uppercase;
+}
+
+.title-doctor {
+  font-family: "Almarai", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: calc(2rem * 1.1);
+  text-transform: uppercase;
+}
+
+.title-specialities {
+  font-family: "Lora", serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: calc(3rem * 1.4);
+  letter-spacing: -0.1rem;
+}
+
+/* Parapgraphs, list-items and similars */
+.text-header {
+  font-family: "Lora", serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.text {
+  font-family: "Lora";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.575rem;
+  letter-spacing: 0.0225rem;
+}
+
+.text-small {
+  font-family: 'Lora';
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.05rem; /* 140% */
+  letter-spacing: 0.015rem;
+}
+
+.text-doctor {
+  font-family: 'Lora';
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: calc(0.875rem * 1.4);
+  letter-spacing: 0.015rem;
+}
+
+/* Talvez usar em um componente de botão */
+.button-text {
+  font-family: "Almarai", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+/* Font Styles and similars */
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.max-width-75ch {
+  max-width: 75ch;
+}

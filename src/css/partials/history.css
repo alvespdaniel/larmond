@@ -1,0 +1,11 @@
+.clinica-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.clinica-text {
+  display: grid;
+  height: max-content;
+  gap: 32px;
+}

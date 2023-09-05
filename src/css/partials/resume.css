@@ -1,0 +1,14 @@
+.resume img {
+  height: 30px;
+}
+
+.resume span, .resume img {
+  mix-blend-mode: soft-light;
+  color: var(--white);
+}
+
+.resume {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}

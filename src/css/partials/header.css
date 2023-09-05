@@ -1,0 +1,44 @@
+header {
+  background-color: #a66c6b;
+}
+
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+#header img {
+  height: 50px;
+}
+
+#menu {
+  display: flex;
+  gap: 60px;
+}
+
+#menu a li {
+  display: grid;
+  gap: 2px;
+  transition: 0.4s;
+}
+
+#menu a li::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: var(--primary-lighter);
+  transition: 0.4s;
+}
+
+#menu a li:hover:after {
+  width: 100%;
+}
+
+#menu a li:hover {
+  color: var(--primary-lighter);
+}
+

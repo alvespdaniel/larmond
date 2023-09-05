@@ -1,0 +1,34 @@
+/* Containers */
+.container-lg {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Paddings, Margins, etc */
+.padding-section {
+  padding: 60px 80px 100px 80px;
+}
+
+.padding-header {
+  padding: 32px 80px;
+}
+
+.padding-footer {
+  padding: 60px 80px 40px 80px;
+}
+
+.mb-title {
+  margin-bottom: 60px;
+}
+
+.mb-title-specialities {
+  margin-bottom: 40px;
+}
+
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}

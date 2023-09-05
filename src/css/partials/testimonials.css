@@ -1,0 +1,43 @@
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px 40px;
+  justify-content: center;
+}
+
+.testimonial {
+  background-color: var(--secondary);
+  height: 400px;
+  width: 360px;
+  border: 2px solid var(--black);
+  border-radius: 50% 50% 0px 0px;
+  display: grid;
+  justify-items: center;
+  position: relative;
+}
+
+.testimonial .profile img {
+  border-radius: 50%;
+  height: 100px;
+  position: absolute;
+  top: -50px;
+  right: 120px;
+}
+
+/* .testimonial .text {
+  align-self: center;
+} */
+
+.testimonial p {
+  padding: 0px 24px;
+  text-align: center;
+  align-self: end;
+}
+
+.testimonial .rating img {
+  height: 30px;
+}
+
+.testimonial .rating {
+  align-self: center;
+}

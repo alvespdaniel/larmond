@@ -1,0 +1,22 @@
+.text-specialities {
+  display: grid;
+  gap: 32px;
+}
+
+#specialities .photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#specialities .photos .photo {
+  display: grid;
+  gap: 12px;
+}
+
+.airflow .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  align-items: last baseline;
+}

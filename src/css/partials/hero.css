@@ -1,0 +1,9 @@
+#hero {
+  background: url(../../img/foto-hero-larmond\ 2.jpg) no-repeat right;
+  background-size: cover;
+}
+
+#hero-content {
+  display: grid;
+  gap: 28px;
+}

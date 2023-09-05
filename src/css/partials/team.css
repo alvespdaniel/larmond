@@ -1,0 +1,41 @@
+#team #photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.team-text {
+  display: grid;
+  height: max-content;
+  gap: 32px;
+}
+
+#team .doctor {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#team .doctor p {
+  max-width: 60ch;
+}
+
+#team .name {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#team .name img {
+  height: 24px;
+}
+
+#team-container {
+  display: flex;
+  gap: 60px;
+}
+
+.doctor-img {
+  width: 100%;
+}
