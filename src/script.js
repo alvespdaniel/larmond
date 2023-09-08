@@ -17,3 +17,12 @@ function proximaImg() {
 
   document.getElementById('radio' + cont).checked = true;
 }
+
+// Menu Mobile Button
+const menuDiv = document.getElementById('menu-mobile');
+const btn = document.getElementById('btn-menu');
+
+function animar() { 
+  btn.classList.toggle('ativar-btn-mobile');
+  menuDiv.classList.toggle('abrir-menu');
+}

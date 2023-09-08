@@ -18,5 +18,6 @@
 @import url(./css/partials/footer.css);
 @import url(./css/partials/testimonials.css);
 
-/* Sliders, Gallery and Other Funcionalities with JS */
+/* Funcionalities with JS */
 @import url(./css/funcionalities/slider.css);
+@import url(./css/funcionalities/menu-mobile.css);

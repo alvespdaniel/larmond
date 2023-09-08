@@ -17,7 +17,7 @@
 <body class="bg-white">
   <header>
     <div id="header" class="container-lg padding-header">
-      <a href="index.html"><img height="60px" src="./src/img/l'armond-logo-branca.png" alt="Logomarca da Empresa L'armond"></a>
+      <a href="index.html" class="logo-larmond"><img height="60px" src="./src/img/l'armond-logo-branca.png" alt="Logomarca da Empresa L'armond"></a>
 
       <nav aria-label="Navegação Primária">
         <ul id="menu">
@@ -35,6 +35,33 @@
           </a>
           <a href="#footer">
             <li class="text-header font-color-white">Contato</li>
+          </a>
+        </ul>
+      </nav>
+
+      <button onclick="animar()" id="btn-menu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+      </button>
+
+      <nav class="menu-mobile" id="menu-mobile">
+        <a href="index.html" class="logo"><img height="60px" src="./src/img/l'armond-logo-branca.png" alt="Logomarca da Empresa L'armond"></a>
+        <ul>
+          <a href="#history">
+            <li class="text font-color-white">A Clínica</li>
+          </a>
+          <a href="#team">
+            <li class="text font-color-white">A Equipe</li>
+          </a>
+          <a href="#specialities">
+            <li class="text font-color-white">Diferenciais</li>
+          </a>
+          <a href="#testimonial">
+            <li class="text font-color-white">Depoimentos</li>
+          </a>
+          <a href="#footer">
+            <li class="text font-color-white">Contato</li>
           </a>
         </ul>
       </nav>
@@ -458,7 +485,7 @@
     </div>
   </section>
 
-  <footer class="container-lg padding-footer">
+  <footer class="container-lg padding-footer" id="footer">
     <div class="logo">
       <img src="./src/img/l'armond-logo-primario.png" alt="Logomarca">
       <p class="text">L’Armond Odontologia © 2023 Todos os Direitos Reservados</p>
