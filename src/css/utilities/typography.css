@@ -71,15 +71,27 @@
   letter-spacing: 0.015rem;
 }
 
-/* Talvez usar em um componente de botão */
-.button-text {
-  font-family: "Almarai", sans-serif;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
+.text-specialities {
+  display: grid;
+  gap: 32px;
+}
+
+.cda-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.team-text {
+  display: grid;
+  height: max-content;
+  gap: 32px;
+}
+
+.clinica-text {
+  display: grid;
+  height: max-content;
+  gap: 32px;
 }
 
 /* Font Styles and similars */
@@ -97,4 +109,54 @@
 
 .max-width-75ch {
   max-width: 75ch;
+}
+
+@media (max-width: 992px) {
+  .title-hero {
+    font-size: 3.75rem;
+    line-height: calc(3.75rem * 1.15);
+  }
+
+  .text {
+    font-size: 0.875rem;
+    line-height: calc(0.875rem * 1.4);
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: calc(3rem * 1.4);
+  }
+
+  .text-specialities,
+  .cda-text,
+  .team-text,
+  .clinica-text {
+    gap: 24px;
+  }
+
+  .title-specialities {
+    font-size: 2.25rem;
+    line-height: calc(2rem * 1.4);
+  }
+
+  .text-small {
+    font-size: 0.625rem;
+  }
+
+  .text-doctor {
+    font-size: 0.75rem;
+    line-height: calc(0.75rem * 1.4);
+  }
+}
+
+@media (max-width: 768px) {
+  .title-hero {
+    font-size: 3rem;
+    line-height: calc(3rem * 1.15);
+  }
+
+  .title-specialities {
+    font-size: 1.5rem;
+    line-height: calc(1.5rem * 1.4);
+  }
 }

@@ -12,3 +12,19 @@
   justify-content: space-between;
   align-items: baseline;
 }
+
+@media (max-width: 992px) {
+  .resume img {
+    height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .resume img {
+    height: 16px;
+  }
+
+  .resume {
+    justify-content: space-around;
+  }
+}

@@ -8,6 +8,16 @@
   transition: 0.5s;
 }
 
+.button-text {
+  font-family: "Almarai", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
 .button:hover {
   transform: translateX(8px);
 }
@@ -18,4 +28,14 @@
 
 .whatsapp-button:hover {
   background-color: #40802B;
+}
+
+@media (max-width: 992px) {
+  .button {
+    padding: 12px 24px;
+  }
+  
+  .button-text {
+    font-size: 1rem;
+  }
 }

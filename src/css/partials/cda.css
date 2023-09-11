@@ -4,8 +4,8 @@
   gap: 40px;
 }
 
-.cda-text {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+@media (max-width: 768px) {
+  .cda {
+    grid-template-columns: 1fr;
+  }
 }

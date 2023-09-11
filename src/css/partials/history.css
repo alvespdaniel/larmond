@@ -4,8 +4,16 @@
   gap: 24px;
 }
 
-.clinica-text {
-  display: grid;
-  height: max-content;
-  gap: 32px;
+@media (max-width: 768px) {
+  .clinica-content {
+    grid-template-columns: 1fr;
+  }
+
+  #history .clinica-text {
+    order: 1;
+  }
+
+  #history .slider {
+    order: 2;
+  }
 }

@@ -9,7 +9,8 @@
   padding: 60px 80px 100px 80px;
 }
 
-.padding-header {
+.padding-header,
+.padding-resume {
   padding: 32px 80px;
 }
 
@@ -31,4 +32,32 @@
 
 .mb-12 {
   margin-bottom: 12px;
+}
+
+@media (max-width: 992px) {
+  .padding-section {
+    padding: 40px 60px 80px 60px;
+  }
+
+  .padding-header {
+    padding: 32px 60px;
+  }
+
+  .mb-title {
+    margin-bottom: 40px;
+  }
+
+  .mb-title-specialities {
+    margin-bottom: 32px;
+  }
+
+  .padding-footer {
+    padding: 40px 60px 20px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .padding-resume {
+    padding: 20px;
+  }
 }
