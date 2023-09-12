@@ -4,8 +4,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 30%;
-  height: 100vh;
+  width: 100%;
+  height: 80vh;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,7 @@
   gap: 6px;
   cursor: pointer;
   display: none;
+  z-index: 10;
 }
 
 .linha {
@@ -59,7 +60,6 @@
 
 #btn-menu.ativar-btn-mobile .linha:nth-child(1) {
   transform: translateY(8px) rotate(-45deg);
-  background-color: #ff0000;
 }
 
 #btn-menu.ativar-btn-mobile .linha:nth-child(2) {
@@ -68,7 +68,6 @@
 
 #btn-menu.ativar-btn-mobile .linha:nth-child(3) {
   transform: translateY(-8px) rotate(45deg);
-  background-color: #ff0000;
 }
 
 @media (max-width: 768px) {

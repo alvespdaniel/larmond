@@ -13,3 +13,9 @@
     gap: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  #hero {
+    background: #a66c6b;
+  }
+}

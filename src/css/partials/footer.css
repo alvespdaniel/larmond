@@ -8,7 +8,7 @@ footer .logo {
 }
 
 footer .logo img {
-  max-height: 100px;
+  max-height: 80px;
   max-width: 100%;
 }
 
@@ -32,19 +32,6 @@ footer .menu a li {
   gap: 2px;
   transition: 0.3s;
 }
-
-/* footer .menu a li::after {
-  content: "";
-  display: block;
-  width: 0%;
-  height: 2px;
-  background-color: var(--primary);
-  transition: 0.4s;
-}
-
-footer .menu a li:hover:after {
-  width: 100%;
-} */
 
 footer .menu a li:hover {
   color: var(--primary);
@@ -87,5 +74,33 @@ footer .menu a li:hover {
 }
 
 @media (max-width: 768px) {
-  
+  footer,
+  .infos {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    gap: 32px;
+  }
+
+  .infos {
+    justify-self: center;
+    gap: 40px;
+  }
+
+  footer .logo {
+    gap: 24px;
+  }
+
+  footer .logo img {
+    max-height: 45px;
+  }
+
+  .social-media {
+    flex-direction: row;
+  }
+
+  .social-media span {
+    display: none;
+  }
 }

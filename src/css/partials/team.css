@@ -53,5 +53,11 @@
   #team #team-container {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 0px;
+  }
+
+  #team .doctor {
+    padding: 40px;
+    padding-bottom: 0px;
   }
 }
