@@ -73,6 +73,10 @@ footer .menu a li:hover {
   height: 20px;
 }
 
+.copywright-mobile {
+  display: none;
+}
+
 @media (max-width: 768px) {
   footer,
   .infos {
@@ -101,6 +105,15 @@ footer .menu a li:hover {
   }
 
   .social-media span {
+    display: none;
+  }
+
+  .copywright-mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .copywright-desktop {
     display: none;
   }
 }
