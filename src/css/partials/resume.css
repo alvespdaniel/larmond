@@ -21,10 +21,14 @@
 
 @media (max-width: 768px) {
   .resume img {
-    height: 16px;
+    height: 12px;
   }
 
   .resume {
     justify-content: space-around;
   }
+
+  /* .resume {
+    display: none;
+  } */
 }

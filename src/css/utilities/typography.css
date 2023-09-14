@@ -151,8 +151,8 @@
 
 @media (max-width: 768px) {
   .title-hero {
-    font-size: 3rem;
-    line-height: calc(3rem * 1.15);
+    font-size: 2.5rem;
+    line-height: calc(2.5rem * 1.15);
   }
 
   .title-specialities {
@@ -163,5 +163,9 @@
   .title {
     font-size: 2.5rem;
     line-height: calc(2.5rem * 1.15);
+  }
+
+  .title-resume {
+    font-size: 1rem;
   }
 }

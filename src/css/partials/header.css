@@ -57,5 +57,9 @@ header {
   #header {
     justify-content: space-between;
   }
+
+  #header .logo-larmond img {
+    height: 40px;
+  }
 }
 

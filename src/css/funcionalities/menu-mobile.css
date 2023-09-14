@@ -32,22 +32,22 @@
 }
 
 #btn-menu {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   background: transparent;
   border: none;
   padding: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 6px;
+  gap: 4px;
   cursor: pointer;
   display: none;
   z-index: 10;
 }
 
 .linha {
-  width: 30px;
+  width: 24px;
   height: 1.8px;
   background-color: #fff;
   display: block;
