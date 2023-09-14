@@ -18,13 +18,29 @@ function proximaImg() {
   document.getElementById('radio' + cont).checked = true;
 }
 
-// Menu Mobile Button
+// Menu Mobile
 const menuDiv = document.getElementById('menu-mobile');
 const btn = document.getElementById('btn-menu');
-const mobileLinks = document.getElementsByClassName('mobile-link')
+
+const history = document.querySelector('.mobile-link-history');
+const team = document.querySelector('.mobile-link-team');
+const specialities = document.querySelector('.mobile-link-specialities');
+const testimonial = document.querySelector('.mobile-link-testimonial');
+const footer = document.querySelector('.mobile-link-footer');
 
 function animar() { 
   btn.classList.toggle('ativar-btn-mobile');
   menuDiv.classList.toggle('abrir-menu');
-  mobileLinks.classList.toggle('fechar-menu');
 } 
+
+function fecharMenu() {
+  menuDiv.classList.toggle('abrir-menu');
+  btn.classList.toggle('ativar-btn-mobile');
+}
+
+history.addEventListener('click', fecharMenu);
+team.addEventListener('click', fecharMenu);
+specialities.addEventListener('click', fecharMenu);
+testimonial.addEventListener('click', fecharMenu);
+footer.addEventListener('click', fecharMenu);
+// End Menu-Mobile
