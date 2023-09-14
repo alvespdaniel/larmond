@@ -21,8 +21,10 @@ function proximaImg() {
 // Menu Mobile Button
 const menuDiv = document.getElementById('menu-mobile');
 const btn = document.getElementById('btn-menu');
+const mobileLinks = document.getElementsByClassName('mobile-link')
 
 function animar() { 
   btn.classList.toggle('ativar-btn-mobile');
   menuDiv.classList.toggle('abrir-menu');
-}
+  mobileLinks.classList.toggle('fechar-menu');
+} 
