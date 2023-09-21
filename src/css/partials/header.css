@@ -42,6 +42,9 @@ header {
   color: var(--primary-lighter);
 }
 
+.diferenciais-links {
+  display: none;
+}
 
 @media (max-width: 992px) {
   #header {

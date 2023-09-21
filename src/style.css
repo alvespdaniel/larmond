@@ -18,6 +18,9 @@
 @import url(./css/partials/footer.css);
 @import url(./css/partials/testimonials.css);
 
+/* Team Page */
+@import url(./css/team-page/team-page.css);
+
 /* Funcionalities with JS */
 @import url(./css/funcionalities/slider.css);
 @import url(./css/funcionalities/menu-mobile.css);
