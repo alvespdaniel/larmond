@@ -24,3 +24,7 @@
 /* Funcionalities with JS */
 @import url(./css/funcionalities/slider.css);
 @import url(./css/funcionalities/menu-mobile.css);
+
+.cover {
+  object-fit: cover;
+}
