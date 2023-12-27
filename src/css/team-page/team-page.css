@@ -5,6 +5,7 @@
 
   #team-page .logo-larmond {
     height: 30px;
+    display: block;
   }
 
   #team-page #header {
