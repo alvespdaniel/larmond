@@ -169,3 +169,7 @@
     font-size: 1rem;
   }
 }
+
+.justify {
+  text-align: justify !important;
+}
