@@ -60,4 +60,8 @@
     padding: 40px;
     padding-bottom: 0px;
   }
+
+  .doctor:not(.doctor-first) {
+    display: none !important;
+  }
 }
