@@ -111,6 +111,10 @@
   max-width: 75ch;
 }
 
+.max-width-60ch {
+  max-width: 60ch;
+}
+
 @media (max-width: 992px) {
   .title-hero {
     font-size: 3.75rem;

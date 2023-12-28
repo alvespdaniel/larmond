@@ -1,11 +1,15 @@
 #hero {
-  background: url(../../img/foto-hero-larmond\ 2.jpg) no-repeat right;
+  background: url(../../img/hero-larmond-teste.png) no-repeat right;
   background-size: cover;
 }
 
 #hero-content {
   display: grid;
   gap: 28px;
+}
+
+#hero-content-mobile {
+  display: none;
 }
 
 @media (max-width: 992px) {
@@ -18,4 +22,8 @@
   #hero {
     background: #a66c6b;
   }
+
+  #hero-content-mobile {
+    display: block;
+  }  
 }
