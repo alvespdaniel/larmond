@@ -35,6 +35,10 @@
   max-height: 600px;
 }
 
+.doctor:not(.doctor-first) {
+  opacity: 0;
+}
+
 @media (max-width: 992px) {
   #team-container {
     gap: 40px;
